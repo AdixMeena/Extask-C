@@ -67,7 +67,8 @@ import userRoutes from './routes/userRoutes.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const clientDistDir = path.resolve(__dirname, '../../client/dist');
+// const clientDistDir = path.resolve(__dirname, '../../client/dist');
+const clientDistDir = path.resolve(__dirname, '../client/dist');
 
 const app = express();
 
